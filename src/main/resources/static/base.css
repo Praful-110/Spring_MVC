@@ -1,0 +1,36 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQ_gsriqZSki4jZEhKYUPSG1e7pwyRngtjg&s");
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #343a40;
+}
+
+h2 {
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.btn-group {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	
+	padding: 20px 30px;
+	border-radius: 12px;
+}
+
+.btn {
+	padding: 10px 24px;
+	border-radius: 8px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
